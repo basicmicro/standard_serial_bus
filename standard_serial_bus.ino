@@ -19,7 +19,7 @@ void setup() {
 }
 
 void loop() {
-  // We will select each controller in sequentially and operate the motor attached to each
+  // We will select each controller sequentially and operate the motor attached to each
   digitalWrite(controller1, HIGH);
   serial.write(94);
   delay(2000);
