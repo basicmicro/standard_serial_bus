@@ -21,34 +21,41 @@ void setup() {
 void loop() {
   // We will select each controller sequentially and operate the motor attached to each
   digitalWrite(controller1, HIGH);
+  delay(50);
   serial.write(94);
   delay(2000);
   serial.write((byte)0);
+  delay(50);
   digitalWrite(controller1, LOW);
   delay(2000);
   
 
   digitalWrite(controller2, HIGH);
+  delay(50);
   serial.write(94);
   delay(2000);
   serial.write((byte)0);
+  delay(50);
   digitalWrite(controller2, LOW);
   delay(2000);
  
 
   digitalWrite(controller3, HIGH);
+  delay(50);
   serial.write(94);
   delay(2000);
   serial.write((byte)0);
+  delay(50);
   digitalWrite(controller3, LOW);
   delay(2000);
   
 
   digitalWrite(controller4, HIGH);
+  delay(50);
   serial.write(94);
   delay(2000);
   serial.write((byte)0);
+  delay(50);
   digitalWrite(controller4, LOW);
-  delay(2000);
-  
+delay(2000);
 }
