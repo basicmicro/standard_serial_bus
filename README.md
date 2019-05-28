@@ -1,1 +1,1 @@
-This repository contains the Arduino sketch to test the use of multiple RoboClaw motor controllers simultaneously via the simple serial mode. The code is this repository is for use with [this Application Note]().
+This repository contains the Arduino sketch to test the use of multiple RoboClaw motor controllers simultaneously using the simple serial mode. This code is for use with [this Application Note](https://resources.basicmicro.com/standard-serial-bus-operation-with-arduino/).
